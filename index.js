@@ -2,7 +2,7 @@ const Bot = require('./components/TelegramBot');
 const findInFiles = require('find-in-files');
 const fn = require('./components/functional');
 
-const token = '488821463:AAG13Gnk7yyD6D1xzk3BFcGbu2VaG_MCumc';
+const token = 'TOKEN';
 const bot = new Bot(token);
 
 console.log('Bot has been started!');
